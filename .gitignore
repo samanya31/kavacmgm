@@ -1,0 +1,29 @@
+# Dependency directories
+node_modules/
+.env
+.env.local
+.env.*.local
+
+# Local databases and SQLite files
+*.sqlite
+*.sqlite-journal
+*.sqlite3
+backend/database.sqlite
+backend/database.sqlite-journal
+backend/database.sqlite-wal
+backend/database.sqlite-shm
+
+# Build output directories
+dist/
+dist-app/
+frontend/dist/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Office / Excel temporary files
+~$*
+.vs/
+.idea/
+*.log
